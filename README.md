@@ -1,7 +1,7 @@
 # LIML
 List Markup Language
 
-## Intro
+## Introduction
 LIML is a lightweight markup language that systematically represents list of data. 
 It is designed to systematically store lists of small data. This allows the establishment of a simple and structured list-type database.
 
@@ -110,3 +110,11 @@ some ;comment
 
 If you write comment like this, parser cannot recognize that it is a comment.
 Parser will think ```some ;comment``` as a value
+
+## Using LIML Library
+LIML Library basically includes parser and writer. With this, you can parse and modify LIML file smoothly.
+
+
+Currently, LIML library supports the programming languages listed below.
+
+* python
